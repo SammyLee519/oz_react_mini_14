@@ -66,9 +66,15 @@ const Grid = styled.div`
 const MovieGrid = ({
   movies,
   title,
+<<<<<<< HEAD
   padding, // ⭐ 데스크톱 패딩
   paddingTablet, // ⭐ 태블릿 패딩
   paddingMobile, // ⭐ 모바일 패딩
+=======
+  padding,
+  paddingTablet,
+  paddingMobile,
+>>>>>>> main
 }) => {
   return (
     <Container
