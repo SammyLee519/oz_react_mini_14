@@ -1,6 +1,4 @@
-import Banner from "@/components/banner/Banner";
-import PopularMovies from "@/components/popular-movie/PopularMovie";
-import TopRankedMovie from "@/components/top-ranked-movie/TopRankedMovie";
+import { Banner, PopularMovies, TopRankedMovie } from "@/components";
 
 const MainPage = () => {
   return (
