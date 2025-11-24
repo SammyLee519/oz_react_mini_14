@@ -1,7 +1,6 @@
-import Header from "@/components/Header";
-import Banner from "@/components/Banner";
-import PopularMovies from "@/components/PopularMovies";
-import TopRankedMovie from "@/components/TopRankedMovie";
+import Banner from "@/components/banner/Banner";
+import PopularMovies from "@/components/popular-movie/PopularMovie";
+import TopRankedMovie from "@/components/top-ranked-movie/TopRankedMovie";
 
 const MainPage = () => {
   return (

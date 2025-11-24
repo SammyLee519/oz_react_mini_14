@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { debounce } from "lodash";
+import debounce from "lodash/debounce";
 import { useAuth } from "@/hooks";
+import logo from "@/assets/image/keynema_logo.png";
 import {
   Icon,
   Typography,
@@ -76,7 +77,7 @@ const Header = () => {
       <HeaderArea $hasBackdropFilter={hasBackdropFilter}>
         <TopRow>
           <Logo onClick={handleLogoClick}>
-            <img src="/src/assets/image/keynema_logo.png" alt="keynema_logo" />
+            <img src={logo} alt="keynema_logo" />
           </Logo>
           <Categories />
 

@@ -8,3 +8,5 @@ export { default as useReview } from "./useReview";
 export { default as useWishlist } from "./useWishlist";
 export { default as useNoOverlay } from "./useNoOverlay";
 export { default as useReviewEdit } from "./useReviewEdit";
+export { default as useBackdropFilter } from "./useBackdropFilter";
+export { default as useSearch } from "./useSearch";

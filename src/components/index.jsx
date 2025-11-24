@@ -13,9 +13,9 @@ export { default as SectionTitle } from "./common/SectionTitle";
 export { default as TabMenu } from "./common/TabMenu";
 
 // 단일 컴포넌트
-export { default as Header } from "./Header";
-export { default as SideMenu } from "./SideMenu";
-export { default as Banner } from "./Banner";
-export { default as PopularMovies } from "./PopularMovies";
-export { default as TopRankedMovie } from "./TopRankedMovie";
-export { default as Categories } from "./Categories";
+export { default as Header } from "./header/Header";
+export { default as SideMenu } from "./side-menu/SiadeMenu";
+export { default as Banner } from "./banner/Banner";
+export { default as PopularMovies } from "./popular-movie/PopularMovie";
+export { default as TopRankedMovie } from "./top-ranked-movie/TopRankedMovie";
+export { default as Categories } from "./category/Category";
